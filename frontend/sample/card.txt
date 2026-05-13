@@ -1,0 +1,46 @@
+<!-- CONTENT  -->
+    <?php if($books) :  ?> 
+        <div class="container mt-4">
+                <div class="row">
+                    <?php foreach($books as $book) : ?>
+                        <div class="col-md-4 mb-4">
+                            <a href="detailbuku.php?id=<?= $book['id'] ?>">
+                            <div class="card h-100 shadow-sm cardbook">
+                                <img class="card-img-top book" src="img/<?= $book['sampul'] ?>" alt="">
+                                <div class="card-body">
+                                    <h3 class="card-title"><?= $book['judul'] ?></h3>
+                                    <p class="card-text"><?= $book['mapel'] ?></p>
+                                </div>
+                            </div>
+                            </a>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+        </div>
+    <?php else :  ?>
+        <p style="text-align:center;margin-top:100px">🍵 Buku Dengan Pencarian <?= $_POST['keyword'] ?> Gaada...</p>
+    <?php endif; ?>
+
+
+
+.ebook{
+    height: 150px;
+    object-fit: contain;
+    background-color: #f3f3f3;
+    cursor: pointer;
+}
+
+
+.card{
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 18px 35px rgba(0,0,0,0.18);
+}
+
+a:has(.card) {
+    text-decoration: none !important;
+    color: inherit !important;
+}

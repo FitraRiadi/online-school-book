@@ -1,0 +1,150 @@
+/* *{
+  outline: 1px solid red;
+} */
+
+/* html, body, #root{
+  scroll-behavior: smooth !important;
+} */
+
+#root{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+
+.social-media{
+  cursor: pointer;
+}
+
+
+
+
+
+/* TITLE */
+.hero-title{
+    text-align: center;
+    margin-top: 25px;
+    color: #85b5f39d;
+    letter-spacing: 2px;
+    font-size: 40px;
+    font-weight: 800;
+    filter: drop-shadow(0 5px 2px rgba(19, 161, 226, 0.534));
+}
+
+.hero-sub{
+    color: #6c6c6c;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: -30px;
+}
+
+
+@media screen and (max-width:800px) {
+  .hero-title{
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    font-size: 18px;
+    color: #0d6efd;
+  }
+}
+
+
+
+/* Input Underline Property */
+.input-underline {
+  border: none;
+  border-bottom: 1px solid #0f0f0f56; 
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.input-underline:focus {
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  border-bottom: 2px solid #0d6efd; 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Animation Global */
+
+.fade-in {
+    animation: fadeIn 0.4s ease-out forwards;
+}
+@keyframes fadeIn {
+    from { 
+        opacity: 0; 
+        transform: translateY(10px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+
+.leftToRight{
+  animation:  leftToRight 2s ease;
+  overflow: hidden !important;
+}
+
+
+@keyframes leftToRight{
+  from{
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.rightToLeft{
+  animation: rightToLeft 2s ease;
+  overflow: hidden !important;
+}
+
+@keyframes rightToLeft {
+  from{
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+
+.downToUp{
+  animation: downToUp 2s ease;
+}
+
+@keyframes downToUp {
+  from{
+    transform: translateY(200px);
+  }
+  to{
+    transform: translateY(0);
+  }
+}
+
+

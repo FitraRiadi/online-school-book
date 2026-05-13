@@ -1,0 +1,38 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+/* CARD  BOOK */
+.card .book{
+    object-fit: contain;
+    height: 150px;
+    margin-top: 8px;
+    background-color: #f3f3f3;
+}
+
+.card-buku{
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.322) !important;
+  transition: transform 0.250s ease;
+  border-radius: 10px;
+}
+
+.card-buku:hover{
+  transform: translateY(-6px);
+}
+.sampul-buku{
+  border-radius: 10px;
+}
+
+
+
+
+
+/* Navbar */
+.nav-link:hover{
+    border-bottom: 1px solid black;
+}
+
+
+

@@ -1,0 +1,12 @@
+.detail-sampul{
+    animation: sampul-intro 0.2s ease;
+}
+
+@keyframes sampul-intro {
+    from{
+        transform: translateY(-100px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}   

@@ -1,0 +1,23 @@
+<div class="container mt-5">
+        <div class="card text-white border-0 shadow-lg hero-card">
+            <div class="row g-0 align-items-center">
+                <!-- TEXT -->
+                <div class="col-md-6">
+                    <div class="card-body p-5">
+                        <h1 class="fw-bold display-4">OSB</h1>
+                        <h3 class="fw-semibold">Online School Books</h3>
+                        <p class="mt-3">
+                            Temukan buku pelajaran sekolah dengan mudah. 
+                            Buku pemerintah gratis dan buku penerbit tersedia lengkap.
+                        </p>
+
+                        <a href="#book-shelf" class="btn btn-outline-success mt-3 px-4 fw-bold">
+                            Lihat Buku
+                        </a>
+                    </div>
+                </div>
+                <!-- KOSONG (buat ruang gambar) -->
+                <div class="col-md-6"></div>
+            </div>
+        </div>
+    </div>

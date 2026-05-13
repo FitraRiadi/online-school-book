@@ -1,0 +1,119 @@
+
+.dashboard-head{
+    border: 3px solid black;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url('./../../assets/images/library.jpg');
+}
+
+.dashboard-profile{
+    background-color: #D9D9D9;
+}
+
+
+.dashboard-profile img{
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.575);
+}
+.dashboard-profile div h4{
+    font-weight: 1000;
+    font-size: 32px;
+    font-family: "Inter", sans-serif;
+}
+
+
+.dashboard-status-info{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.527);
+}
+
+.dashboard-status-info .count{
+    font-weight: 800;
+    font-size: 100px;
+    padding: 20px;
+}
+
+.dashboard-status-info .status-detail{
+    width: 100%;
+    border-radius: 10px;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dashboard-status-info .status-detail h5{
+    margin-top: 10px;
+    font-weight: 800;
+     font-family: "Inter", sans-serif;
+}
+
+.dashboard-status-info .status-detail p{
+    margin-top: -11px; 
+    font-family: "Inter", sans-serif;
+}
+
+
+/* Salary */
+.salary{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #D9D9D9;
+}
+
+.salary h6{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+/* Chart */
+.chart{
+    height: 450px;
+}
+
+@media screen and (max-width:800px) {
+    .chart{
+        height: 300px;
+    }
+}
+
+
+
+/* Activty */
+.activity-log{
+    background-color: #D9D9D9;
+    height: 350px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.activity-log p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.activity-log .activity-username{
+    font-weight: bolder;
+}
+@media screen and (max-width:800px) {
+    .activity-log{
+        height: 400px;
+    }
+
+
+}
+@media screen and (max-width:600px) {
+    .activity-log{
+        height: 450px;
+    }
+}

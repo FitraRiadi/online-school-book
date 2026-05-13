@@ -1,0 +1,18 @@
+.hero-favorite{
+    background-color: #D9D9D9;
+    background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)), url('./../assets/images/favorite-hero.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-favorite h1{
+    text-wrap: nowrap;
+}
+
+@media screen and (max-width: 500px) {
+    .hero-favorite{
+        width: 80%;
+        height: 100px;
+    }
+}

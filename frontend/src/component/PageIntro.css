@@ -1,0 +1,47 @@
+.title-page{
+    font-size: 100px !important;
+    color: rgb(255, 251, 251);
+    font-weight: 800;
+}
+
+@media screen and (max-width:500px) {
+    .title-page{
+        /* color: black !important; */
+        font-size: 50px !important;
+    }
+}
+
+
+.close-page-intro{
+    z-index: 999 !important;
+    /* position: relative; */
+    animation: close-page 1s ease-in-out forwards;
+}
+
+@keyframes close-page {
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(100%);
+    }
+    
+}
+
+
+.start-page-intro{
+    z-index: 999 !important;
+    /* position: relative; */
+    animation: start-page 1s ease-in-out forwards;
+}
+
+@keyframes start-page {
+    from{
+        transform: translateY(-100%);
+    }
+    to{
+        transform: translateY(0);
+    }
+    
+}
+

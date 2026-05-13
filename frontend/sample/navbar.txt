@@ -1,0 +1,18 @@
+<!-- NAV -->
+    <nav class="navbar bg-body-tertiary shadow-sm sticky-top">
+        <div class="container-fluid">
+            <h1 class="navbar-brand">OSB</h1>
+            <div style="display: flex;">
+                <a href="#a" class="nav-link">Home</a>
+                <a href="#b" class="nav-link">About</a>
+                <a href="#c" class="nav-link">Favorite</a>
+                <a href="#e" class="nav-link">MyBooks</a>
+            </div>
+
+            <form class="d-flex" action="" method="POST">
+                <input class="form-control me-2" type="search" placeholder="Search" name="keyword" value="<?= isset($_POST['keyword']) ? $_POST['keyword'] : ''  ?>">
+                <button class="btn btn-outline-success" name="submit" type="submit">Search</button>
+            </form>
+
+        </div>
+    </nav>
